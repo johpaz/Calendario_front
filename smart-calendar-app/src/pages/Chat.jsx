@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import EventCards from './EventCard';
 
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = import.meta.env.VITE_REACT_APP_LOCALHOST;
 
 const Chat = () => {
   const navigate = useNavigate();
