@@ -34,7 +34,7 @@ const EventCards = ({ events = [] }) => {
                 {event.hora_inicio} - {event.hora_fin}
               </p>
               <span className="self-start text-xs bg-blue-100 text-blue-800 px-3 py-1 rounded-full">
-                ID: {event.id}
+                ID: {event._id}
               </span>
             </div>
           </div>
