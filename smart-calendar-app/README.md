@@ -1,12 +1,37 @@
-# React + Vite
+# Smart Calendar Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Smart Calendar Assistant es una aplicación web inteligente diseñada para ayudarte a gestionar tu calendario de manera eficiente. La aplicación combina una interfaz amigable con capacidades de procesamiento de lenguaje natural para facilitar la gestión de tus eventos y citas.
 
-Currently, two official plugins are available:
+## Características Principales
+- **Programación Inteligente**: Sistema intuitivo para agendar y gestionar tus citas
+- **Asistente Automático**: Interfaz conversacional para manejar tu calendario
+- **Predicciones Precisas**: Optimización inteligente de tu agenda
+- **Procesamiento de Voz**: Capacidad para transcribir mensajes de voz para una interacción más natural
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
+- Frontend: React + Vite
+- Backend: Node.js con Express
+- Base de datos integrada
+- Procesamiento de audio con ffmpeg y OpenAI Whisper
 
-## Expanding the ESLint configuration
+## Estructura del Proyecto
+- `/frontend/smart-calendar-app`: Aplicación React
+- `/node`: Servidor backend y lógica de negocio
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+- Consultar eventos
+- Agregar nuevas citas
+- Editar eventos existentes
+- Borrar eventos
+- Procesamiento de mensajes de voz
+- Interfaz de chat para interacción natural
+
+## Inicio Rápido
+1. Clona el repositorio https://github.com/johpaz/Calendario_back.git y https://github.com/johpaz/Calendario_front.git
+2. Instala las dependencias tanto en el frontend como en el backend 
+3. Configura las variables de entorno necesarias
+4. Inicia el servidor backend (puerto 3000)
+5. Inicia la aplicación frontend
+
+![Estructura](/frontend/smart-calendar-app/public/image.png)
