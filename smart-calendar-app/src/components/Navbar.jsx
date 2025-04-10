@@ -11,7 +11,7 @@ const Navbar = () => {
             className="flex items-center space-x-2 group"
           >
             <img 
-              src="/logo.jpeg" 
+              src="/logo.png" 
               alt="Logo SmartCalendar" 
               className="h-10 w-10 rounded-lg transition-transform duration-300 hover:rotate-[15deg]"
             />
