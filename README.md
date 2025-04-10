@@ -34,4 +34,4 @@ Smart Calendar Assistant es una aplicación web inteligente diseñada para ayuda
 4. Inicia el servidor backend (puerto 3000)
 5. Inicia la aplicación frontend
 
-![Estructura](./image.png)
+![Estructura](./smart-calendar-app//public/image.png)
